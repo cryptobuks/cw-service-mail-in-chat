@@ -1,0 +1,9 @@
+module.exports = {
+  rabbitmq: { active: true },
+  redis: { active: true },
+  options: {
+    privateKey: '',
+    clientEmail: '',
+    inboxLabel: ''
+  }
+}

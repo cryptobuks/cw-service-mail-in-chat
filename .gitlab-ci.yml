@@ -1,0 +1,10 @@
+include: 'https://gitlab.com/fernando.cowellness/cw-public/-/raw/master/services-base-template.yml'
+
+variables:
+    #Edit 
+    image_name: "TODO::DEFINE-NAME"
+    repo_path: "TODO::DEFINE-FULL-REPO-PATH"
+    service_port: "TODO::DEFINE-EXTERNAL-PORT-FOR_DOCKER"
+    #no edit 
+    deploy_machine: "dev.cowellness.net"
+    image_tag: $CI_COMMIT_SHORT_SHA
